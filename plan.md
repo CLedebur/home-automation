@@ -391,10 +391,149 @@ Here are **three strong options** for each of your four equipment categories: he
 
 ---
 
-### ✅ Next Steps for You  
-- Contact **3 local suppliers/installers** with these models and ask for **turn-key quotes** (supply + install + wiring/civil).  
-- Confirm **compatibility** (heat pump with your radiator loop, buffer tank sizing, Baxi connection).  
-- Check **warranty & support** (battery manufacturers, inverter, heat pump).  
-- Ensure **installation meets Portuguese norms** & qualifies for any **subsidies**.
+# Inverters
 
-If you like, I can **compile a downloadable PDF quote-sheet** with these options (to hand to installers) so you can fill in their actual supply & install costs.
+Below are **three top-tier hybrid inverters** that meet **ALL** of your requirements:
+
+✔ Work perfectly with **Home Assistant** (local API or MQTT)  
+✔ Provide **backup power during outages** (UPS mode / islanding)  
+✔ Support **dynamic load balancing** (with CT clamps)  
+✔ Integrate smoothly with **batteries (12–20 kWh)**  
+✔ Are widely available in **Portugal**  
+✔ Have strong installer support & long warranties  
+
+I’m giving you the **best-fit three**, not “10 random ones.”
+
+---
+
+# 🥇 **1. Huawei Sun2000 + LUNA Battery System (Top Smart Ecosystem)**
+
+### **Why it fits your needs**
+- Excellent **backup/UPS** function  
+- **Zero-export** and **peak shaving** using CT clamps  
+- Extremely efficient (97.5%+)  
+- Excellent Portuguese installer coverage  
+- Very good long-term reliability  
+- Supports **Home Assistant via Modbus-TCP** or third-party integrations  
+- Works beautifully with **12–15 kWh battery packs** (LUNA modules stack in 5 kWh blocks)
+
+### **Pros**
+- One of the best hybrid inverters globally  
+- Elegant modular battery system  
+- Fast UPS transfer (~20 ms)  
+- Smart home integration is mature  
+- Less noise and heat than many competitors  
+
+### **Cons**
+- Locked into the **LUNA battery** ecosystem (expensive)  
+- Backup output may require a **separate “critical loads” panel**  
+
+### **Best For:**  
+A “no drama” smart system with deep integration and high reliability.
+
+---
+
+# 🥈 **2. Sungrow SH10RT / SH6.0RT Series (Best All-Rounder for HA)**
+
+### **Why it fits your needs**
+- Excellent **backup** performance  
+- Very flexible **battery choices** (Sungrow SBR or third-party packs)  
+- Fully compatible with **Home Assistant via Modbus-TCP**  
+- Dynamic load control and zero-export modes  
+- Great price/performance ratio in Portugal  
+
+### **Pros**
+- Strong, reliable brand with EU support  
+- Battery packs are cheaper than Huawei  
+- Easy to integrate with **DIY or third-party LiFePO4 batteries**  
+- Great performance in both grid-tied & off-grid modes  
+
+### **Cons**
+- App is less polished  
+- Backup output also typically requires a dedicated loads panel  
+
+### **Best For:**  
+Value + flexibility + HA automation, with room to grow to 15–20 kWh storage later.
+
+---
+
+# 🥉 **3. GoodWe EH/ET Series (Best for Open Protocols & HA Power Users)**
+
+### **Why it fits your needs**
+- Excellent support for **Home Assistant** (modbus, MQTT, or via SEMS API)  
+- Superb **backup/off-grid** functionality (ET series does full-house islanding)  
+- Works with a wide range of **third-party batteries** (Pylontech, BYD, Dyness, DIY packs)  
+- Very affordable vs Huawei/Sungrow  
+
+### **Pros**
+- Hugely flexible ecosystem  
+- HA integration is extremely strong  
+- Good installer presence in Portugal  
+- ET series supports **whole-home UPS**  
+- Can use **generic 48 V LiFePO4 batteries** (cheap!)  
+
+### **Cons**
+- Fans can be louder under heavy load  
+- Build quality slightly behind Huawei/Sungrow  
+
+### **Best For:**  
+Automation enthusiasts, DIY battery users, or anyone wanting maximum flexibility.
+
+---
+
+# ⚡ Quick Comparison Table
+
+| Feature | **Huawei Sun2000** | **Sungrow SH-RT** | **GoodWe ET/EH** |
+|--------|----------------------|-------------------|------------------|
+| Home Assistant | Modbus-TCP, strong community integrations | Modbus-TCP, excellent | Modbus/MQTT, best flexibility |
+| Backup | Yes (fast UPS) | Yes | Yes (whole-home capable) |
+| Battery Type | Proprietary LUNA | Sungrow SBR or 3rd-party | Works with almost ANY LiFePO4 |
+| Price | High | Mid | Mid/Low |
+| Reliability | Excellent | Excellent | Very good |
+| Ideal For | Seamless ecosystem | Balanced system | Power users + DIY |
+
+---
+
+# 🧭 Which One Should YOU Choose?
+
+### Based on your setup (heat pump, Baxi, F520 logger, EV trickle charging, Home Assistant automation):
+
+### ⭐ **If you want the simplest, most robust system → Huawei Sun2000**
+- “Apple-like” ecosystem  
+- Minimal headaches  
+- Superb performance  
+- Best long-term support  
+
+### ⭐ **If you want the best value + HA integration → Sungrow SH10RT**
+- Cheaper than Huawei  
+- Very strong battery and automation support  
+- Easy to expand battery to 15 kWh  
+
+### ⭐ **If you want maximum flexibility / DIY battery → GoodWe ET/EH**
+- Can use **cheap 48 V LiFePO4 batteries**  
+- Very hackable and automatable  
+- Great for an HA-heavy home like yours  
+
+---
+
+# 🔧 Recommended Battery Pairings (12–15 kWh)
+
+| Inverter | Recommended Battery |
+|----------|---------------------|
+| **Huawei Sun2000** | Huawei **LUNA 15 kWh** (most expensive but simplest) |
+| **Sungrow SH-RT** | Sungrow **SBR096–SBR160** series (stackable modules) |
+| **GoodWe ET** | **Pylontech US5000**, **Dyness BX6.3**, or a DIY **48–51 V LiFePO4** pack |
+
+Your earlier 15 kWh LiFePO4 example (€2,300 battery pack) works perfectly with **GoodWe** and **Sungrow** if compatible BMS is used (common in Portugal).
+
+---
+
+# 🎯 Final Recommendation for You
+
+**Sungrow SH10RT with ~15 kWh Sungrow SBR battery**  
+→ Best balance of cost, reliability, Home-Assistant friendliness, and full-house resilience.
+
+But if budget allows and you want “plug-and-forget” stability:
+
+**Huawei Sun2000 + LUNA**  
+→ You will *never* regret this one.
