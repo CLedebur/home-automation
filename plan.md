@@ -339,7 +339,62 @@ Variant B is simpler and works with all heat pumps.
 - Radiator loop is reused without modification.  
 - Heat pump handles low-temperature hydronic heating efficiently.  
 - Minisplits handle peak room comfort.  
-- PV + battery + F520 + EV charger all orchestrate the electrical demand.  
+- PV + battery + F520 + EV charger all orchestrate the electrical demand.
 - Home Assistant can coordinate EVERYTHING.
 
+---
 
+# Example Equipment & Pricing
+
+Here are **three strong options** for each of your four equipment categories: heat pump, solar panels, battery storage, and a smart mixing/thermostatic valve. These suggestions include brand/model, approximate Portuguese-supplier references, and estimated pricing (for budgeting purposes). You’ll still need to confirm actual quotes & install costs with local suppliers.
+
+---
+
+## 1) Heat Pump (Air-to‐Water)  
+- **Daikin Altherma 3 M EBLA 8 kW** — supplier example ClimaMarket Portugal.  [oai_citation:0‡Climamarket B2C Europa](https://climamarket.com/products/daikin-altherma-3-m-ebla-8-kw-single-phase-air-to-water-heat-pump-with-hydronic-module?utm_source=chatgpt.com) Estimate: **€5 000–€7 000** for the unit (installer cost higher).  
+- **Mitsubishi Electric Eco Inverter 8 kW (SUZ-SWM80VA)** — imported model; good efficiency.  [oai_citation:1‡heating-pump.com](https://heating-pump.com/product/mitsubishi-electric-eco-8-kw-suz-swm80va-external-air-to-water-heat-pump/?utm_source=chatgpt.com) Estimate: **€4 500–€6 000** unit cost.  
+- **Aquapura Inverter HT (4-20 kW range)** — Portuguese supplier ENERGIE EST.  [oai_citation:2‡ENERGIE EST, Lda.](https://energie.pt/en/produtos-energie/aquapura-inverter-ht/?utm_source=chatgpt.com) Estimate: **€6 000–€8 000** including indoor + outdoor module.
+
+---
+
+## 2) Solar Panels / PV Kit (~6-7 kWp)  
+- **SunPower / Premium mono panels** via Portuguese supplier (eg Solar Algarve)  [oai_citation:3‡solar-algarve.com](https://solar-algarve.com/?utm_source=chatgpt.com) Estimate: ~ **€6 000–€8 000** installed for 6-7 kWp.  
+- **Grace Solar panels + mounting kit** from a Portuguese installer referenced among top companies.  [oai_citation:4‡bymea.com](https://www.bymea.com/blog/top-10-solar-companies-portugal?utm_source=chatgpt.com) Estimate: ~ **€5 500–€7 500**.  
+- **Mid-tier mono panels (EU/Asian brand)** via national wholesaler (listed in supplier directory).  [oai_citation:5‡ENF Solar](https://www.enfsolar.com/directory/seller/Portugal?utm_source=chatgpt.com) Estimate: ~ **€5 000–€6 500**.
+
+---
+
+## 3) Battery Storage (12-15 kWh usable)  
+- **15 kWh LiFePO4 “51.2 V” pack** from Portuguese online retailer (“HomeLowCost”) listed at ~ €2 312 for the module. Estimate full system (inverter + install) ~ **€4 000–€5 000**.  
+- **Battery + inverter kit (≈10 kWh)** Portuguese market price ~ €6 500–€7 100 (for 10 kWh) after subsidies.  [oai_citation:6‡en.solarinverterbattery.com](https://en.solarinverterbattery.com/blog/portugal-10kwh-home-battery-costs-2025-save-with-subsidies?utm_source=chatgpt.com) Upscaled to 15 kWh might be ~ **€7 000–€9 000**.  
+- **Large storage system (12-20 kWh) via local integrator (GSL ENERGY case 10.24 kWh)**  [oai_citation:7‡GSL Energy](https://www.gsl-energy.com/portugal-energy-storage-solutions-20kwh-lithium-battery-deye-inverter-installation.html?utm_source=chatgpt.com) For 15 kWh likely ~ **€8 000–€10 000** installed.
+
+---
+
+## 4) Mixing / Thermostatic Valve for DHW Integration  
+- **Watts e-ULTRAMIX® Smart Thermostatic Mixing Valve** — supports remote control/modbus.  [oai_citation:8‡watts.eu](https://www.watts.eu/en-gb/products/eu/thermostatic-mixing-valves/high-productivity-mixing-valves/smart-thermostatic-mixing-valve-e-ultramix?utm_source=chatgpt.com) Estimate: **€300–€600** depending on size/ports.  
+- Standard thermostatic mixing valve (non-smart) by major European brand + added temperature sensor for Home Assistant. Estimate: **€150–€300**.  
+- High-end electronic mixing station (with legionella cycle, record logging) with remote interface. Estimate: **€500–€800**.
+
+---
+
+### 📋 Quick Summary Table
+
+| Category        | Option Reference                           | Estimated Installed Cost*     |
+|-----------------|--------------------------------------------|-------------------------------|
+| Heat Pump       | Daikin / Mitsubishi Electric / Aquapura    | €5,000 – €8,000 (unit only)   |
+| Solar PV Kit    | SunPower / Grace Solar / Mid-tier          | €5,000 – €8,000 (6-7 kWp)     |
+| Battery Storage | 12-15 kWh usable                            | €4,000 – €10,000              |
+| Mixing Valve    | Watts e-ULTRAMIX® or equivalent            | €150 – €800                   |
+
+\* Excludes full labour/installation, piping/structural upgrades, permits.
+
+---
+
+### ✅ Next Steps for You  
+- Contact **3 local suppliers/installers** with these models and ask for **turn-key quotes** (supply + install + wiring/civil).  
+- Confirm **compatibility** (heat pump with your radiator loop, buffer tank sizing, Baxi connection).  
+- Check **warranty & support** (battery manufacturers, inverter, heat pump).  
+- Ensure **installation meets Portuguese norms** & qualifies for any **subsidies**.
+
+If you like, I can **compile a downloadable PDF quote-sheet** with these options (to hand to installers) so you can fill in their actual supply & install costs.
